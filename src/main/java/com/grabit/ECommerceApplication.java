@@ -11,6 +11,6 @@ import java.util.Properties;
 public class ECommerceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication app = new SpringApplication(ECommerceApplication.class);
+		SpringApplication.run(ECommerceApplication.class, args);
 	}
 }
